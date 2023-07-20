@@ -1,22 +1,17 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * print_alphabet - prints the alphabt
- * Return:0
+ * _isdigit - check is it number or not
+ * @c: char to be checked
+ *
+ * Return: 1 if number else 0
  */
 
-void print_alphabet(void)
+int _isdigit(int c)
 {
-	char c = 'a';
-
-	while (c <= 'z')
-	{
-		_putchar(c);
-		c++;
-
-	}
-	_putchar('\n');
-
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
 
