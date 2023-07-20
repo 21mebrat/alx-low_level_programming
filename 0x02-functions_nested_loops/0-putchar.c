@@ -1,8 +1,7 @@
-#include 'main.h'
+#include "main.h"
 /**
- * main function - print _putchar .
- *  \n gets newline.
- * Return: zero.
+ * main function - print _putchar
+ * Return: zero
  */
 
 int main(void)
@@ -18,3 +17,4 @@ _putchar('r');
 _putchar('\n');
 return (0);
 }
+
