@@ -1,17 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    char c;
+#include <unistd.h>
 
-    c = '0';
-    printf("%c: %d\n", c, _isdigit(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isdigit(c));
-    return (0);
+/**
+ * print_alphabet - prints the alphabt
+ * Return:0
+ */
+
+void print_alphabet(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
+
 }
+
