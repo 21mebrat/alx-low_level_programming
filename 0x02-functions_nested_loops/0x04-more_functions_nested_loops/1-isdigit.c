@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _isdigit - check is it number or not
  * @c: char to be checked
