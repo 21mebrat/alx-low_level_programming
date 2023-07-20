@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main function - prints.
- * Return: always zero.
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 
 int main(void)
