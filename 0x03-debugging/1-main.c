@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* main function - is an infinite loop
+* main function - causes an infinite loop
 * Return: 0
 */
 int main(void)
