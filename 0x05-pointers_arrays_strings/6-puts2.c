@@ -1,28 +1,28 @@
 #include "main.h"
 /**
- * puts2 - function should print only one character out of two
- * starting with the first one
- * @str: input
+ * puts2 - function outht to print only one char from two chars
+ * starting from the first one
+ * @str: acepted
  * Return: print
  */
 void puts2(char *str)
 {
-	int longi = 0;
-	int t = 0;
+	int x = 0;
+	int z = 0;
 	char *y = str;
-	int o;
+	int i;
 
 	while (*y != '\0')
 	{
 		y++;
-		longi++;
+		x++;
 	}
-	t = longi - 1;
-	for (o = 0 ; o <= t ; o++)
+	z = x - 1;
+	for (i = 0 ; i <= z ; i++)
 	{
-		if (o % 2 == 0)
+		if (i % 2 == 0)
 	{
-		_putchar(str[o]);
+		_putchar(str[i]);
 	}
 	}
 	_putchar('\n');
