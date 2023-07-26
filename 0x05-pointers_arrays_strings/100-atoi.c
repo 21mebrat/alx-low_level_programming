@@ -2,33 +2,33 @@
 
 /**
  * _atoi - converts a string to an integer
- * @s: string to be converted
+ * @s: stores btring to be converted
  *
  * Return: the int converted from the string
  */
 int _atoi(char *s)
 {
-	int i, d, n, len, f, digit;
+	int i, b, n, length, f, digit;
 
 	i = 0;
-	d = 0;
+	b = 0;
 	n = 0;
-	len = 0;
+	length = 0;
 	f = 0;
 	digit = 0;
 
 	while (s[len] != '\0')
-		len++;
+		length++;
 
-	while (i < len && f == 0)
+	while (i < length && f == 0)
 	{
 		if (s[i] == '-')
-			++d;
+			++b;
 
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			digit = s[i] - '0';
-			if (d % 2)
+			if (b % 2)
 				digit = -digit;
 			n = n * 10 + digit;
 			f = 1;
